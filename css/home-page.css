@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*The main controller of the sub-parts*/
+.main-box {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.secondary-box {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* THE TOP PART OF THE WEBSITE*/
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 20px 20px 20px;
+  height: 5%;
+}
+
+.right-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+
+/* THE LEFT PART OF THE WEBSITE*/
+
+.left-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #e3744f;
+  font-size: 50px;
+}
+
+
+/* BUTTON STUFFS */
+
+.button {
+  position: relative;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff; /* Green */
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+  margin: 0px 10px 0px 10px;
+  width: 300px
+}
+
+.button:hover {
+  background-color: #fff; /* Green */
+  color: black;
+}
