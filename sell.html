@@ -3,7 +3,7 @@
   <head>
     <meta charset='UTF-8'/>
     <title>SELL</title>
-    <link rel='stylesheet' href='css/home-page.css'/>
+    <link rel='stylesheet' href='css/sell-page.css'/>
   </head>
   <body>
     <div class='main-box'>
@@ -20,6 +20,53 @@
 
       </div>
 
-    </div>
+      <div class='sell-body'>
+        <div class='sell-left-bar'>
+          Selling Guide <br>
+          Pag may gusto kang ibenta upload mo lang name mo at contact number <br>
+          tapos description ng gusto mong ibenta, then upload mo rin mga pictures kung meron man, (max of 10 photos) <br>
+          Tapos submit mo na lang lods, contact ka na lang namin for the price offer <br>
+          Then you can choose to agree or kung ayaw mo nung price, cancel the transaction or offer ka ng ibang price! <br>
+          Perra! at your service!
+        </div>
+        <div class='sell-right-bar'>
+          <form action='#' method="post">
+            
+            <div class="filler"> </div>
+            <fieldset>
+
+              <legend> Fill the Following Fields Below </legend>
+
+                <label for="fullName"> Full Name: </label>
+                <input type="text" name="fullName"
+                id="fullName">
+
+                <label for="address"> Address: </label>
+                <input type="text" name="address"
+                id="address">
+
+                <label for="contactNumber"> Contact Number: </label>
+                <input type="tel" name="contactNumber"
+                id="contactNumber">
+
+                <label for="description"> Description: </label>
+                <textarea name="description"
+                id="description"> </textarea>
+
+                <label for="image-links"> Upload Images Here </label>
+                <input type="links" name="image-links"
+                id="image-links">
+
+                <div> </div>
+
+                <input type="submit" id="submit"
+                value="Submit">
+
+            </fieldset>
+          </form>
+
+        </div>
+      </div>
+    </div> <!--main box-->
   </body>
 </html>
